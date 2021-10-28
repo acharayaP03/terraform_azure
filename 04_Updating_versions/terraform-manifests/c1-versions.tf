@@ -18,9 +18,3 @@ provider "azurerm" {
   features {}
 }
 
-# Azure Resource Group
-resource "azurerm_resource_group" "resource-group1" {
-  name = "resource-group1"
-  location = "East US"
-}
-
